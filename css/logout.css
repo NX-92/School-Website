@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 100%;
+    margin: auto;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 60px;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+}
+
+.header h2{
+    background: url('images/Abbott University Image.jpeg') no-repeat left;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header hr {
+    background: url('images/Abbott University Image.jpeg') no-repeat left;
+    background-size: cover;
+    padding: 1px 0;
+}
+
+.header .container{
+    background-color: #fcfcfc;
+    max-width:100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+@media(max-width:991px){
+
+    body{
+        width: 100%;
+    }
+    
+    .header{
+        width: 100%;
+    }
+
+    .header hr{
+        width: 100%;
+    }
+
+    section .title {
+        width: 100%;
+    }
+
+}
+
+section {
+    height: auto;
+    display: flex;
+    max-width: 100%;
+
+}
+
+section .container{
+    width: 80%;
+    height: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .title{
+    padding-top: 20px;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .button-box{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+section .login-btn{
+    height: 50px;
+    width: 200px;
+    background: linear-gradient(to bottom,#E9EEE0, #A8B392);
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fcfcfc;
+}
+
+section .login-btn:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.5s;
+}

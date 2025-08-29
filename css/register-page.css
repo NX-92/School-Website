@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 100%;
+    margin: auto;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 60px;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+}
+
+.header h2{
+    background: url('images/Abbott University Image.jpeg') no-repeat left;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header hr {
+    background: url('images/Abbott University Image.jpeg') no-repeat left;
+    background-size: cover;
+    padding: 1px 0;
+}
+
+.header .container{
+    background-color: #fcfcfc;
+    max-width:100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+@media (max-width: 991px) {
+
+    body{
+        width: 100%;
+    }
+    
+    .header{
+        width: 100%;
+    }
+
+    .header hr{
+        width: 100%;
+    }
+
+    section .title {
+        width: 100%;
+    }
+
+    section .form-container {
+        
+        padding-bottom: 800px;
+    }
+
+    section .form-bg {
+        padding-bottom: 700px;
+    }
+
+    .column-left{
+        margin-bottom: 50px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+      }
+     
+    form * {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    form .button-box .register-btn{
+        margin-top: 345px;
+    }
+}
+
+section {
+    height: auto;
+    display: flex;
+    max-width: 100%;
+
+}
+
+section .container{
+    display:inline-block;
+    justify-content: space-between;
+    width: 80%;
+    height: auto;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+section .title{
+    padding-top: 20px;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    display: flex;
+}
+
+section .form-container{
+    height: 450px;
+    width: 76vw;
+    border-radius: 20px;
+    background: linear-gradient(to bottom,#E9EEE0, #A8B392);
+    display: flex;
+    justify-content: center;
+}
+
+section .form-bg{
+    height: 350px;
+    width: 72.8vw;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.36);
+    border-radius: 20px;
+}
+
+form{
+    height: 500px;
+    width: 76vw;
+    display: flex;
+}
+
+form .column-left{
+    height: 250px;
+    width: 580px;
+    margin-top: 20px;
+}
+
+form .column-right{
+    height: 500px;
+    width: 580px;
+    margin-top: 20px;
+}
+
+form input{
+    width: 50%;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: 5px;
+    border-color: #A8B392;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+form label{
+    font-size: 16px;
+    font-weight:normal;
+    margin-left: 20px;
+}
+
+form .button-box{
+    height: 50px;
+    width: 150px;
+    margin-left: 500px;
+    margin-top: 375px;
+    position: absolute;
+    margin-bottom: 20px;
+}
+
+form .register-btn{
+    height: 50px;
+    width: 150px;
+    background: linear-gradient(to bottom,#E9EEE0, #A8B392);
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fcfcfc;
+}
+
+form .register-btn:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.5s;
+}
+
+section .back-box{
+    width: 50%;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+
+section .back-box a{
+    color: black;
+}
+
+section .role-option-box{
+    position: absolute;
+    width: 50%;
+}
+
+section .role-option-box label{
+    padding-top: 20px;
+}
+
+section .role-option-box select{
+    height: 35px;
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+}
+
+section .lecturer-code-ui{
+
+    height: 150px;
+    width: 20vw;
+    background-color: rgb(50, 30, 30);
+}

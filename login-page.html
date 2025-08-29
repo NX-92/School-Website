@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login-page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Login</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h2>Abbott University</h2>
+            </div>
+        </div>
+        <hr>
+    </header>
+
+
+    <section class="section">
+        <div class="container">
+            <div class="title">
+                <h2>Login Page</h2>
+            </div>
+            <div class="form-container">
+                <div class="form-bg">
+                    <form action="loginPage.php" method="post">
+                        <div class="column-left">
+                            <p>
+                                <label>Email Address <span>*</span></label><br>
+                                <input type="email" name="Login_Email_Address" placeholder="Eg: liewhowwen@gmail.com" required>
+                            </p>
+                        </div>
+                        <div class="column-right">
+                            <p>
+                                <label>Password <span>*</span></label><br>
+                                <input type="password" name="Login_Password" placeholder="A@123123123" required>
+                            </p>
+                        </div>
+                        <div class="button-box">
+                            <button class="login-btn" type="submit"><h3>Login</h3></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="back-box">
+                <a href="register-page.html"><p>Don't have an account? Register here</p></a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

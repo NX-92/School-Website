@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/register-page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Register</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h2>Abbott University</h2>
+            </div>
+        </div>
+        <hr>
+    </header>
+
+
+    <section class="section">
+        <div class="container">
+            <div class="title">
+                <h2>Register Page</h2>
+            </div>
+            <div class="form-container">
+                <div class="form-bg">
+                    <form action="RegisterPage.php" method="post">
+                        <div class="column-left">
+                            <p>
+                                <label for="">First Name <span>*</span></label><br>
+                                <input type="text" name="Register_First_Name" placeholder="Eg: Liew" required>
+                            </p>
+                            <p>
+                                <label for="">Last Name <span>*</span></label><br>
+                                <input type="text" name="Register_Last_Name" placeholder="Eg: How Wen" required>
+                            </p>
+                            <p>
+                                <label for="">Contact Number <span>*</span></label><br>
+                                <input type="text" name="Register_Contact_Number" placeholder="Mobile Number" required>
+                            </p>
+                        </div>
+                        <div class="column-right">
+                            <p>
+                                <label for="">Email Address <span>*</span></label><br>
+                                <input type="text" name="Register_Email_Address" placeholder="Eg: liewhowwen@gmail.com" required>
+                            </p>
+                            <p>
+                                <label for="">Password <span>*</span></label><br>
+                                <input type="text" name="Register_Password" placeholder="Password" required>
+                            </p>
+                            <p>
+                                <label for="">IC Number <span>*</span></label><br>
+                                <input type="text" name="Register_IC_Number" placeholder="IC Number" required>
+                            </p>
+                            <div class="role-option-box">
+                                <label for="multi-select">Choose your role:</label>
+                                <select id="multi-select" name="Register_Role">
+                                    <option value="1">Student</option>
+                                    <option value="2">Lecturer</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="button-box">
+                            <button class="register-btn" id="register"><h3>Register</h3></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="back-box">
+                <a href="login-page.html"><p>Back to login page</p></a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
