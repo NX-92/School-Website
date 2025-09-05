@@ -23,8 +23,7 @@ The project demonstrates frontend design, backend integration (PHP), and basic u
 ## Technologies Used
 - **Frontend:** HTML, CSS, JavaScript  
 - **Backend:** PHP  
-- **Database:** (Add here if using MySQL or similar)  
-- **Other tools:** Custom JS scripts for UI interactivity  
+- **Database:** SQL, phpMyAdmin
 
 ---
 
